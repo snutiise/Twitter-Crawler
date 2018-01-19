@@ -14,11 +14,14 @@ $ scrapy crawl twitter
 메타데이터 저장시 몽고디비를 이용하므로 몽고디비도 설치해야합니다.
 mongodb config -> settings.py 파일참조
 
-
+<br><br>
 
 config 파일에서 수집하고 싶은 이미지에 대한 키워드와 페이지 수, 그리고 크롤러가 위치한 절대경로를 설정해주면 됩니다.
 
 ex)
+
 keyword=러블리즈
+
 page=10
+
 rootPath=/home/jsh/git/Twitter-Crawler/
