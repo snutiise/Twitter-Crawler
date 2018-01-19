@@ -54,13 +54,13 @@ DOWNLOAD_DELAY = 0.5
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'lovelyz.middlewares.LovelyzSpiderMiddleware': 543,
+#    'twitter.middlewares.TwitterSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'lovelyz.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'twitter.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -72,7 +72,7 @@ DOWNLOAD_DELAY = 0.5
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'lovelyz.pipelines.LovelyzPipeline': 300,
+#    'twitter.pipelines.TwitterPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

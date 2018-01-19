@@ -8,7 +8,7 @@
 import scrapy
 
 
-class LovelyzImgItem(scrapy.Item):
+class TwitterImgItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     num = scrapy.Field()

@@ -12,7 +12,7 @@ from scrapy import log
  
 import pymongo
 
-class LovelyzPipeline(object):
+class TwitterPipeline(object):
     def process_item(self, item, spider):
         return item
 
