@@ -14,7 +14,8 @@ $ cd Twitter-Crawler
 $ scrapy crawl twitter
 
 
-
+메타데이터 저장시 몽고디비를 이용하므로 몽고디비도 설치해야합니다.
+mongodb config -> settings.py 파일참조
 
 
 
