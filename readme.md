@@ -4,13 +4,7 @@
 
 $ git clone https://github.com/snutiise/Twitter-Crawler.git
 
-$ sudo pip instal configparser
-
-$ sudo pip instal pymongo
-
-$ sudo pip install selenium
-
-$ sudo pip instal scrapy
+$ sudo pip install configparser pymongo selenium scrapy
 
 $ cd Twitter-Crawler
 
