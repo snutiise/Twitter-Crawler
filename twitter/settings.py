@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for lovelyz project
+# Scrapy settings for twitter project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -23,7 +23,7 @@ MONGODB_COLLECTION = "twitter"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'lovelyz (+http://www.yourdomain.com)'
+#USER_AGENT = 'twitter (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
